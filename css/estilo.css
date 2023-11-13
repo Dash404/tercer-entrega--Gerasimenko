@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.secundary{
+    background-color: #FFF7E1;
+}
+
+/* TOP PAGE */
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F5B500;
+    color: #4E4E4E;
+    text-align: center;
+    padding: 8px 10px 10px 8px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 56px 50px 10px;
+}
+
+.logo {
+    width: 150px;
+    padding: 0px, 40px, 0px, 0px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #4E4E4E;
+}
+
+hr {
+    border: 1px solid #4E4E4E;
+    margin: 0 80px ;
+}
+
+/* INDEX - HOME PAGE */
+
+.firstContainer {
+    background-image: url(../img/Background\ for\ homepage.png);
+    height: 754px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: left;
+    padding: 0 80px;
+}
+
+.firstContainerText {
+    position:absolute;
+    text-align: left;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50%);
+}
+
+.secondContainer {
+    padding: 88px 0 0 77px;
+}
+
+.thirdContainer {
+    background-color: #FFF7E1;
+    height: 727px;
+    /* width: 100%; */
+    /* max-width: 100%; */
+    padding: 88px 0 0 77px;
+}
+
+.typeOne {
+    color: #4E4E4E;
+    padding: 10px 20px;
+    border: 3px solid #F5B501;
+    text-transform: initial;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    width: 155px;
+    margin: 40px;
+    box-shadow: none;
+    
+}
+
+.typeOne:hover {
+    background-color: #F5B501;
+    border: 2px solid #F5B501;
+}
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro {
+    width: 400px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.slogan {
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+    text-align: left;
+    font-size: 80px;
+    color: #212D11;
+    padding: 64px 0 16px;
+    line-height: 120%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+    text-align: left;
+    font-size: 80px;
+    color: #212D11;
+    padding: 64px 80px 16px;
+    line-height: 120%;
+}
+
+h2 {
+    font-family: 'DM Serif Text', serif;
+    text-align: left;
+    color: #4E4E4E;
+}
+
+h3 {
+    font-family: 'DM Serif Text', serif;
+    text-align: left;
+    font-size: 40px;
+    color: #4E4E4E;
+    line-height: 114%;
+    width: 514px;
+}
+
+.orange-word {
+    color: #F5B501;
+}
+
+.green-word {
+    color: #98C55D;
+}
+
+
+
+/* PORTFOLIO CARDS*/
+
+.contenedorFiestas {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 0 32px;
+}
+
+.evento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.fiestaImagen {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    object-fit: contain;
+    padding: 20px 50px;
+}
+
+.contentEvento{
+    flex-grow: 1;
+    text-align: left;
+    padding: 5px;
+}
+
+.fiestaTitulo {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.cursoDescripcion {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+/* SERVICIOS */
+
+.serviciosTitulo{
+    text-align: center;
+}
+
+.contenedorServicios{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 0 32px;
+}
+
+.servicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.imagenServicios{
+    max-width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    object-fit: contain;
+    padding: 20px 50px;
+}
+
+.contentServicio{
+    flex-grow: 1;
+    text-align: left;
+    padding: 5px;
+}
+
+.servicioTitulo{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.servcioText{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* SOBRE NOSOTROS */
+
+.sobreTitulo {
+    text-align: center;
+}
+
+.sobreTexto{
+    padding: 0 100px 20px;
+}
+
+.contenedorSobre{
+    background-color: #FFFFFF;
+    margin: 16px 200px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementosSobre{
+    padding: 32px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px ;
+}
+
+
+
+
+/* FOOTER */
+
+footer p {
+    width: 1363px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.lastContainer {
+    background-color: #F0F8E5;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 109px 129px;
+}
+
+.lastContainer p {
+    padding: 0px;
+    width: 490px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+
+form {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #212D11;
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario {
+    background-color: #F5B400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Responsive */
+
+/* Vista tablet: 768px-1023px */
+
+@media (max-width:1023px){
+    /* header */
+    header{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+    /* First Container home */
+    .slogan{
+        font-size: 48px
+    }
+
+    .servicio{
+        flex-direction: column;
+        max-width: 355px;
+        gap: 10px;
+    }
+
+    .imagenServicios{
+        height: 200px;
+        margin: 100;
+    }
+    .servicioTitulo{
+        margin: 0;
+    }
+
+}
