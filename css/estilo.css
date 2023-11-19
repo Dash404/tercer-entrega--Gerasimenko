@@ -299,8 +299,8 @@ h3 {
     padding: 64px 300px 16px 80px;
 }
 
-.contactos p{
 
+.contactos p{
     padding: 0 0 16px 80px;
     line-height: 150%;
 }
@@ -417,6 +417,31 @@ iframe {
         text-align: center;
     }
 
-    
+}
+
+/* Ajustes especificos para la vista móvil */
+/* 0 hasta 768px */
+
+@media (max-width:768px){
+
+    /* Contactanos */
+
+    .contactosTitulo{
+        padding: 32px 16px 0 16px;
+    }
+
+    .contactos p {
+        padding: 0 32px 16px 16px;
+    }
+
+    form{
+        width: 80%;
+        margin: 0 16px 40px;
+    }
+
+    input[type="text"],
+    textarea{
+        width: 100%;
+    }
 
 }
