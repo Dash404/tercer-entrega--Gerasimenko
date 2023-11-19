@@ -75,7 +75,11 @@ hr {
 }
 
 .secondContainer {
-    padding: 88px 0 0 77px;
+    padding: 48px 0 0 160px;
+}
+
+.secondContainer p{
+    color: #4E4E4E;
 }
 
 .thirdContainer {
@@ -111,6 +115,7 @@ hr {
 
 
 p {
+    color: #4E4E4E;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -294,6 +299,7 @@ h3 {
 /* FOOTER */
 
 footer p {
+
     width: 1363px;
     font-size: 14px;
     text-align: left;
@@ -301,12 +307,12 @@ footer p {
 
 .lastContainer {
     background-color: #F0F8E5;
-    height: 400px;
+    height: 200px;
     text-align: center;
     border-radius: 15px;
     margin: 0 auto;
     font-size: 16px;
-    padding: 109px 129px;
+    padding: 100px 129px;
 }
 
 .lastContainer p {
@@ -317,6 +323,10 @@ footer p {
 iframe {
     display: block;
     margin: auto;
+}
+
+.contactosFooter{
+    padding: 32px 40px;
 }
 
 
