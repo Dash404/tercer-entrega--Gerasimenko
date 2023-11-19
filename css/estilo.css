@@ -63,15 +63,15 @@ hr {
     background-repeat: no-repeat;
     position: relative;
     text-align: left;
-    padding: 0 80px;
 }
 
 .firstContainerText {
     position:absolute;
     text-align: left;
-    top: 50%;
+    padding: 24px 0 0 80px;
+    /* top: 50%;
     left: 10%;
-    transform: translate(0, -50%);
+    transform: translate(0, -50%); */
 }
 
 .secondContainer {
@@ -299,8 +299,6 @@ h3 {
 /* FOOTER */
 
 footer p {
-
-    width: 1363px;
     font-size: 14px;
     text-align: left;
 }
