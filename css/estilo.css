@@ -7,11 +7,11 @@ body {
     background-color: #FFFFFF;
 }
 
-.secundary{
+.secundary {
     background-color: #FFF7E1;
 }
 
-.tercero{
+.tercero {
     background-color: #F0F8E5;
 }
 
@@ -55,7 +55,7 @@ a {
 
 hr {
     border: 1px solid #4E4E4E;
-    margin: 0 80px ;
+    margin: 0 80px;
 }
 
 /* INDEX - HOME PAGE */
@@ -70,7 +70,7 @@ hr {
 }
 
 .firstContainerText {
-    position:absolute;
+    position: absolute;
     text-align: left;
     padding: 24px 0 0 80px;
     /* top: 50%;
@@ -82,7 +82,7 @@ hr {
     padding: 48px 0 0 160px;
 }
 
-.secondContainer p{
+.secondContainer p {
     color: #4E4E4E;
 }
 
@@ -109,7 +109,7 @@ hr {
     width: 155px;
     margin: 40px 0;
     box-shadow: none;
-    
+
 }
 
 .typeOne:hover {
@@ -179,7 +179,7 @@ h3 {
 
 .contenedorFiestas {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     justify-content: center;
     padding: 0 32px;
@@ -202,7 +202,7 @@ h3 {
     padding: 20px 50px;
 }
 
-.contentEvento{
+.contentEvento {
     flex-grow: 1;
     text-align: left;
     padding: 5px;
@@ -222,14 +222,14 @@ h3 {
 
 /* SERVICIOS */
 
-.contenedorServicios{
+.contenedorServicios {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     padding: 0 32px 40px;
 }
 
-.servicio{
+.servicio {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -238,7 +238,7 @@ h3 {
     padding: 30px 20px;
 }
 
-.imagenServicios{
+.imagenServicios {
     max-width: 100%;
     height: 300px;
     border-radius: 5px;
@@ -246,18 +246,18 @@ h3 {
     padding: 0 50px;
 }
 
-.contentServicio{
+.contentServicio {
     flex-grow: 1;
     text-align: left;
     padding: 5px;
 }
 
-.servicioTitulo{
+.servicioTitulo {
     font-size: 40px;
     margin-bottom: 40px;
 }
 
-.servcioText{
+.servcioText {
     font-size: 16px;
     font-weight: bold;
 }
@@ -269,11 +269,11 @@ h3 {
     text-align: center;
 }
 
-.sobreTexto{
+.sobreTexto {
     padding: 0 100px 20px;
 }
 
-.contenedorSobre{
+.contenedorSobre {
     background-color: #FFFFFF;
     margin: 16px 200px;
     gap: 10px;
@@ -283,12 +283,12 @@ h3 {
     justify-content: center;
 }
 
-.elementosSobre{
+.elementosSobre {
     padding: 32px 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 64px ;
+    gap: 64px;
 }
 
 /* CONTACTOS */
@@ -300,7 +300,7 @@ h3 {
 }
 
 
-.contactos p{
+.contactos p {
     padding: 0 0 16px 80px;
     line-height: 150%;
 }
@@ -310,7 +310,7 @@ form {
 }
 
 label {
-    display: block;
+
     font-weight: bold;
     margin-bottom: 5px;
     color: #212D11;
@@ -356,7 +356,6 @@ footer p {
 
 .lastContainer {
     background-color: #F0F8E5;
-    height: 200px;
     text-align: left;
     border-radius: 15px;
     margin: 0 auto;
@@ -373,11 +372,11 @@ iframe {
     margin: auto;
 }
 
-.contactosFooter{
+.contactosFooter {
     padding: 32px 40px;
 }
 
-.contactanosFooter{
+.contactanosFooter {
     padding: 32px 40px;
     background-color: #FFFFFF;
 }
@@ -388,9 +387,10 @@ iframe {
 
 /* Vista tablet: 768px-1023px */
 
-@media (max-width:1023px){
+@media (max-width:1023px) {
+
     /* header */
-    header{
+    header {
         height: auto;
         flex-direction: column;
         text-align: center;
@@ -398,35 +398,49 @@ iframe {
 
 
     /* First Container home */
-    .slogan{
+    .slogan {
         font-size: 48px
     }
 
-    .servicio{
+    .servicio {
         flex-direction: column;
         max-width: 355px;
         gap: 10px;
     }
-    .imagenServicios{
+
+    .imagenServicios {
         height: 200px;
         margin: 50px;
     }
-    .serviciosTitulo{
+
+    .serviciosTitulo {
         margin: 0;
         font-size: 64px;
         text-align: center;
     }
+
+   
 
 }
 
 /* Ajustes especificos para la vista móvil */
 /* 0 hasta 768px */
 
-@media (max-width:768px){
+@media (max-width:768px) {
+
+    /* Nuestros servicios */
+    .lastContainer {
+        padding: 32px 16px;
+        text-align: center;
+    }
+
+    .typeOne{
+        margin: 16px 0;
+    }
 
     /* Contactanos */
 
-    .contactosTitulo{
+    .contactosTitulo {
         padding: 32px 16px 0 16px;
     }
 
@@ -434,14 +448,27 @@ iframe {
         padding: 0 32px 16px 16px;
     }
 
-    form{
-        width: 80%;
+    form {
         margin: 0 16px 40px;
     }
 
-    input[type="text"],
-    textarea{
+    .btnFormulario {
         width: 100%;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 90%;
+    }
+
+    /* FOOTER */
+
+    .contactosFooter p{
+        text-align: center;
+    }
+
+    .contactanosFooter p{
+        text-align: center;
     }
 
 }
