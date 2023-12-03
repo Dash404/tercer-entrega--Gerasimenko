@@ -1,0 +1,89 @@
+/* Responsive */
+
+/* Vista tablet: 768px-1023px */
+
+@media (max-width:1023px) {
+
+    /* header */
+    header {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    /* First Container home */
+    .slogan {
+        font-size: 48px
+    }
+
+    .servicio {
+        flex-direction: column;
+        max-width: 355px;
+        gap: 10px;
+    }
+
+    .imagenServicios {
+        height: 200px;
+        margin: 50px;
+    }
+
+    .serviciosTitulo {
+        margin: 0;
+        font-size: 64px;
+        text-align: center;
+    }
+
+   
+
+}
+
+/* Ajustes especificos para la vista móvil */
+/* 0 hasta 768px */
+
+@media (max-width:768px) {
+
+    /* Nuestros servicios */
+    .lastContainer {
+        padding: 32px 16px;
+        text-align: center;
+    }
+
+    .typeOne{
+        margin: 16px 0;
+    }
+
+    /* Contactanos */
+
+    .contactosTitulo {
+        padding: 32px 16px 0 16px;
+    }
+
+    .contactos p {
+        padding: 0 32px 16px 16px;
+    }
+
+    form {
+        margin: 0 16px 40px;
+    }
+
+    .btnFormulario {
+        width: 100%;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 90%;
+    }
+
+    /* FOOTER */
+
+    .contactosFooter p{
+        text-align: center;
+    }
+
+    .contactanosFooter p{
+        text-align: center;
+    }
+
+}

@@ -1,10 +1,13 @@
+$color_1: #4E4E4E;
+$background-color_1: #F5B500;
+
 .banner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #F5B500;
-    color: #4E4E4E;
-    text-align: center;
-    padding: 8px 10px 10px 8px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: $background-color_1;
+	color: $color_1;
+	text-align: center;
+	padding: 8px 10px 10px 8px;
 }

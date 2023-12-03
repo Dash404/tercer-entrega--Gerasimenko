@@ -1,0 +1,55 @@
+.firstContainer {
+    background-image: url(../img/Background\ for\ homepage.png);
+    height: 754px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: left;
+}
+
+.firstContainerText {
+    position: absolute;
+    text-align: left;
+    padding: 24px 0 0 80px;
+    /* top: 50%;
+    left: 10%;
+    transform: translate(0, -50%); */
+}
+
+.secondContainer {
+    padding: 48px 0 0 160px;
+}
+
+.secondContainer p {
+    color: #4E4E4E;
+}
+
+.thirdContainer {
+    background-color: #FFF7E1;
+    height: 727px;
+    /* width: 100%; */
+    /* max-width: 100%; */
+    padding: 88px 0 0 77px;
+}
+
+.intro {
+    width: 400px;
+}
+
+.slogan {
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+    text-align: left;
+    font-size: 80px;
+    color: #212D11;
+    padding: 64px 0 16px;
+    line-height: 120%;
+}
+
+.orange-word {
+    color: #F5B501;
+}
+
+.green-word {
+    color: #98C55D;
+}
