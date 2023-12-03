@@ -223,6 +223,65 @@ hr {
   font-weight: bold;
 }
 
+/* CONTACTOS */
+.contactosTitulo {
+  text-align: left;
+  font-size: 48px;
+  padding: 64px 300px 16px 80px;
+}
+
+.contactos p {
+  padding: 0 0 16px 80px;
+  line-height: 150%;
+}
+
+form {
+  margin: 20px 80px 80px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #212D11;
+}
+
+input[type=text] {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #F5B400;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+textarea {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #F5B400;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  height: 100px;
+}
+
+input[id=comentario] {
+  height: 100px;
+}
+
+.btnFormulario {
+  background-color: #98C65D;
+  width: 52%;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
 /* FOOTER */
 footer p {
   font-size: 14px;
@@ -359,4 +418,30 @@ iframe {
 .servcioText {
   font-size: 16px;
   font-weight: bold;
+}
+
+.sobreTitulo {
+  text-align: center;
+}
+
+.sobreTexto {
+  padding: 0 100px 20px;
+}
+
+.contenedorSobre {
+  background-color: #FFFFFF;
+  margin: 16px 200px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.elementosSobre {
+  padding: 32px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
 }/*# sourceMappingURL=estilo.css.map */

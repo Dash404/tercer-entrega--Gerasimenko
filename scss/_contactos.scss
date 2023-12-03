@@ -1,0 +1,58 @@
+$color_1: #212D11;
+$color_2: white;
+$background-color_1: transparent;
+$background-color_2: #98C65D;
+
+/* CONTACTOS */
+.contactosTitulo {
+	text-align: left;
+	font-size: 48px;
+	padding: 64px 300px 16px 80px;
+}
+.contactos {
+	p {
+		padding: 0 0 16px 80px;
+		line-height: 150%;
+	}
+}
+form {
+	margin: 20px 80px 80px;
+}
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: $color_1;
+}
+input[type="text"] {
+	display: block;
+	width: 50%;
+	padding: 10px;
+	border: 2px solid #F5B400;
+	font-size: 16px;
+	margin-bottom: 10px;
+	background-color: $background-color_1;
+}
+textarea {
+	display: block;
+	width: 50%;
+	padding: 10px;
+	border: 2px solid #F5B400;
+	font-size: 16px;
+	margin-bottom: 10px;
+	background-color: $background-color_1;
+	height: 100px;
+}
+input[id="comentario"] {
+	height: 100px;
+}
+.btnFormulario {
+	background-color: $background-color_2;
+	width: 52%;
+	color: $color_2;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 10px;
+}

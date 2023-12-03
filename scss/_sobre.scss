@@ -1,0 +1,24 @@
+$background-color_1: #FFFFFF;
+
+.sobreTitulo {
+	text-align: center;
+}
+.sobreTexto {
+	padding: 0 100px 20px;
+}
+.contenedorSobre {
+	background-color: $background-color_1;
+	margin: 16px 200px;
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.elementosSobre {
+	padding: 32px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 64px;
+}
