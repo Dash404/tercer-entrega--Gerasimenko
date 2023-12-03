@@ -99,25 +99,6 @@ header {
   padding: 0px, 40px, 0px, 0px;
 }
 
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 10px;
-  font-family: "Poppins", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #4E4E4E;
-}
-
-hr {
-  border: 1px solid #4E4E4E;
-  margin: 0 80px;
-}
-
 .banner {
   position: absolute;
   top: 0;
@@ -129,6 +110,7 @@ hr {
   padding: 8px 10px 10px 8px;
 }
 
+/* SOBRE NOSOTROS */
 .firstContainer {
   background-image: url(../img/Background\ for\ homepage.png);
   height: 754px;
@@ -142,15 +124,11 @@ hr {
   position: absolute;
   text-align: left;
   padding: 24px 0 0 80px;
-  /* top: 50%;
-  left: 10%;
-  transform: translate(0, -50%); */
 }
 
 .secondContainer {
   padding: 48px 0 0 160px;
 }
-
 .secondContainer p {
   color: #4E4E4E;
 }
@@ -158,8 +136,6 @@ hr {
 .thirdContainer {
   background-color: #FFF7E1;
   height: 727px;
-  /* width: 100%; */
-  /* max-width: 100%; */
   padding: 88px 0 0 77px;
 }
 
@@ -183,6 +159,32 @@ hr {
 
 .green-word {
   color: #98C55D;
+}
+
+.sobreTitulo {
+  text-align: center;
+}
+
+.sobreTexto {
+  padding: 0 100px 20px;
+}
+
+.contenedorSobre {
+  background-color: #FFFFFF;
+  margin: 16px 200px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.elementosSobre {
+  padding: 32px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
 }
 
 .contenedorFiestas {

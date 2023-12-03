@@ -1,55 +1,73 @@
+$color_1: #4E4E4E;
+$color_2: #212D11;
+$color_3: #F5B501;
+$color_4: #98C55D;
+$font-family_1: 'DM Serif Text', serif;
+$background-color_1: #FFF7E1;
+$background-color_2: #FFFFFF;
+
+/* SOBRE NOSOTROS */
 .firstContainer {
-    background-image: url(../img/Background\ for\ homepage.png);
-    height: 754px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    text-align: left;
+	background-image: url(../img/Background\ for\ homepage.png);
+	height: 754px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: left;
 }
-
 .firstContainerText {
-    position: absolute;
-    text-align: left;
-    padding: 24px 0 0 80px;
-    /* top: 50%;
-    left: 10%;
-    transform: translate(0, -50%); */
+	position: absolute;
+	text-align: left;
+	padding: 24px 0 0 80px;
 }
-
 .secondContainer {
-    padding: 48px 0 0 160px;
+	padding: 48px 0 0 160px;
+	p {
+		color: $color_1;
+	}
 }
-
-.secondContainer p {
-    color: #4E4E4E;
-}
-
 .thirdContainer {
-    background-color: #FFF7E1;
-    height: 727px;
-    /* width: 100%; */
-    /* max-width: 100%; */
-    padding: 88px 0 0 77px;
+	background-color: $background-color_1;
+	height: 727px;
+	padding: 88px 0 0 77px;
 }
-
 .intro {
-    width: 400px;
+	width: 400px;
 }
-
 .slogan {
-    text-align: center;
-    font-family: 'DM Serif Text', serif;
-    text-align: left;
-    font-size: 80px;
-    color: #212D11;
-    padding: 64px 0 16px;
-    line-height: 120%;
+	text-align: center;
+	font-family: $font-family_1;
+	text-align: left;
+	font-size: 80px;
+	color: $color_2;
+	padding: 64px 0 16px;
+	line-height: 120%;
 }
-
 .orange-word {
-    color: #F5B501;
+	color: $color_3;
 }
-
 .green-word {
-    color: #98C55D;
+	color: $color_4;
+}
+.sobreTitulo {
+	text-align: center;
+}
+.sobreTexto {
+	padding: 0 100px 20px;
+}
+.contenedorSobre {
+	background-color: $background-color_2;
+	margin: 16px 200px;
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.elementosSobre {
+	padding: 32px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 64px;
 }
