@@ -90,24 +90,37 @@ h3 {
 
 header {
   display: flex;
-  align-items: center;
-  padding: 56px 50px 10px;
+  justify-content: space-between;
+  position: relative;
+  padding: 20px;
 }
 
 .logo {
+  height: initial;
   width: 150px;
-  padding: 0px, 40px, 0px, 0px;
+}
+
+nav {
+  display: flex;
+  text-align: right;
+  flex: 1;
+  justify-content: flex-end;
+  height: initial;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
 }
 
 .banner {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
   background-color: #F5B500;
   color: #4E4E4E;
+  padding: 1rem 1rem;
   text-align: center;
-  padding: 8px 10px 10px 8px;
 }
 
 /* SOBRE NOSOTROS */
@@ -127,10 +140,8 @@ header {
 }
 
 .secondContainer {
-  padding: 48px 0 0 160px;
-}
-.secondContainer p {
-  color: #4E4E4E;
+  position: relative;
+  padding: 2rem 2rem;
 }
 
 .thirdContainer {
@@ -165,13 +176,8 @@ header {
   padding: 0 100px 20px;
 }
 
-
-.elementosSobre {
-  padding: 32px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 64px;
+.contenedorSobre {
+  background-color: #FFFFFF;
 }
 
 .contenedorFiestas {
@@ -311,6 +317,7 @@ iframe {
     height: auto;
     flex-direction: column;
     text-align: center;
+    gap: 20px;
   }
   /* First Container home */
   .slogan {
@@ -408,26 +415,24 @@ iframe {
   font-weight: bold;
 }
 
-/* .sobreTexto {
+.sobreTitulo {
+  text-align: center;
+}
+
+.sobreTexto {
   padding: 0 100px 20px;
-} */
+}
 
 .contenedorSobre {
   background-color: #FFFFFF;
-  width: 75%;
-  
-  /* 
-  gap: 10px;
-   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */ 
+  margin: 2.5rem;
+  text-align: center;
+  position: relative;
+  padding: 2rem 1rem;
 }
 
 .elementosSobre {
   padding: 32px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 64px;
+  margin: 1.5rem;
+  text-align: center;
 }/*# sourceMappingURL=estilo.css.map */

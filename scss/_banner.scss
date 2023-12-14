@@ -2,12 +2,10 @@ $color_1: #4E4E4E;
 $background-color_1: #F5B500;
 
 .banner {
-	position: absolute;
-	top: 0;
-	left: 0;
+	position: relative;
 	width: 100%;
 	background-color: $background-color_1;
 	color: $color_1;
+	padding: 1rem 1rem;
 	text-align: center;
-	padding: 8px 10px 10px 8px;
 }

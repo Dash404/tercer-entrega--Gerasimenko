@@ -21,10 +21,11 @@ $background-color_2: #FFFFFF;
 	padding: 24px 0 0 80px;
 }
 .secondContainer {
-	padding: 48px 0 0 160px;
-	p {
-		color: $color_1;
-	}
+	position: relative;
+	padding: 2rem 2rem
+	// p {
+	// 	color: $color_1;
+	// }
 }
 .thirdContainer {
 	background-color: $background-color_1;
